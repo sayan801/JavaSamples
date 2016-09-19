@@ -1,0 +1,52 @@
+	Downloaded from net
+/*
+*reading and printing the data until the user prints stop.
+*/
+
+
+import java.io.*;  
+class G5{  
+public static void main(String args[])throws Exception{  
+  
+ InputStreamReader r=new InputStreamReader(System.in);  
+ BufferedReader br=new BufferedReader(r);  
+  
+ String name="";  
+  
+  while(!name.equals("stop")){  
+   System.out.println("Enter data: ");  
+   name=br.readLine();  
+   System.out.println("data is: "+name);  
+  }  
+  
+ br.close();  
+ r.close();  
+ }  
+} 
+
+//----------------------------------------------------------------
+import java.util.Scanner;
+ 
+class GetInputFromUser
+{
+   public static void main(String args[])
+   {
+      int a;
+      float b;
+      String s;
+ 
+      Scanner in = new Scanner(System.in);
+ 
+      System.out.println("Enter a string");
+      s = in.nextLine();
+      System.out.println("You entered string "+s);
+ 
+      System.out.println("Enter an integer");
+      a = in.nextInt();
+      System.out.println("You entered integer "+a);
+ 
+      System.out.println("Enter a float");
+       b = in.nextFloat();
+      System.out.println("You entered float "+b);   
+   }
+} 
