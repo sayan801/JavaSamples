@@ -14,13 +14,13 @@ public class Deletion
 		if(l % 2 == 0)
 		{			
 			StringBuffer sb = new StringBuffer(word);
-			sb.delete(even - 1, even + 2);
+			sb.delete(even - 2, even + 2);
 			System.out.println(sb);
 		}
 		else
 			{
 				StringBuffer sb = new StringBuffer(word);
-				sb.delete(odd - 1, odd + 2);
+				sb.delete(odd - 2, odd + 2);
 				System.out.println(sb);
 			
 			}
