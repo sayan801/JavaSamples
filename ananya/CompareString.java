@@ -7,9 +7,11 @@ public class CompareString
 		
 		System.out.println("Enter String1:");
 		String S1 = scnr.nextLine();
+		S1 = S1.toLowerCase();
 		
 		System.out.println("Enter String2:");
 		String S2 = scnr.nextLine();
+		S2 = S2.toLowerCase();
 		
 		if(S1.compareTo(S2) == 0)
 			System.out.println("String1 is equal to String2.");
