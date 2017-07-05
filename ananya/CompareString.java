@@ -15,7 +15,7 @@ public class CompareString
 			System.out.println("String1 is equal to String2.");
 		
 		else 
-			System.out.println("String1 is not equal to String3.");
+			System.out.println("String1 is not equal to String2.");
 		
 	}
 }
