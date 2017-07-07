@@ -8,7 +8,7 @@ public class Masking
 		String Strg1 = "****";
 		String Strg2 = PhoneNo.substring(4);
 
-		string1 = strg1 + " ";
+		
 		Strg1 = Strg1.concat(Strg2);
 
 		System.out.println("After masking: " + Strg1);
